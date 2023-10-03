@@ -5,3 +5,5 @@ A Logistics company has but a new plot of land for a Distribution Center in a ne
 # Solution 
 For this you will need to simulate costumer orders based on relative frequency to find how many products each client will buy. After simulating the number of products you will need to simulate which products the clients will buy with the same methodology. You can find this Data Processing in the Data_Processing Folder. After you generate the costumer Orders you will implement a VRP ALgorithm a n number of times with the Web Application you can find in the Streamlit_Web_Application Folder where the Simulation will execute on the backend and give you an Analysis based on the parameters given by the user.
 
+# Instructions
+If you wish to view the Web Application of the Simulator please install the requirements.txt file into your virtualenvironment and run the following command in your terminal : $ streamlit run Montecarlo_Simulation.py . If you wish to see the Data Processing of the datasets that go into the Simulation please review the jupyter notebook titled Distribucion_de_datos.ipynb in the Data_Processing Folder.
